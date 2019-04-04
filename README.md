@@ -16,9 +16,9 @@ Make sure you are running these commands from the project root.
 
 - Create the neccessary docker images
 
-run `docker build -t react-fe:latest /client/Dockerfile`
+run `docker build -t react-fe:latest client/.`
 
-run `docker build -t node-be:latest /api/Dockerfile`
+run `docker build -t node-be:latest api/.`
 
 - Run the whole setup
 
