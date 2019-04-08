@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   getApiResult() {
-    fetch('http://sikkerforskning.dk:3001/test')
+    fetch('http://localhost:3001/test')
       .then(res => res.text())
       .then(res => this.setState({ apiRes: res }));
   }
